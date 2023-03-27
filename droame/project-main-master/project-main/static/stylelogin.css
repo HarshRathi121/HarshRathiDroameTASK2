@@ -1,0 +1,52 @@
+*{
+    padding:0;
+    margin:0;
+    }
+    body{
+    background-image:url('loginbg.jpg');
+    background-size:cover;
+    
+    
+    }
+    .login-form{
+    width:350px;
+    left:25%;
+    top:50%;
+    transform:translate(50%,-50%);
+    position:absolute;
+    color:black;
+    
+    
+    }
+    .login-form h1{
+    font-size:40px;
+    text-align:center;
+    text-transform:uppercase;
+    margin:40px 0px;
+    
+    
+    
+    }
+    .login-form p{
+    font-size:30px;
+    margin:15px 0px;
+    
+    
+    }
+    .login-form input{
+    font-size:16px;
+    width:100%;
+    padding:15px 10px;
+    border: black solid;
+    outline:none;
+    border-radius:5px;
+    
+    }
+    .login-form button{
+    font-size:18px;
+    font-weight:bold;
+    margin:20px 0px;
+    padding: 10px 15px;
+    width:50%;
+    border-radius: 5px;
+    }
